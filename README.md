@@ -42,6 +42,10 @@ The YOLOv8 model was trained and evaluated on our X-ray luggage dataset, achievi
 | Recall    | 74.0% |
 | F1-Score  | 86%   |
 | mAP@0.5   | 89.1% |
+![PR](results/PR_curve.png)
+![P](results/P_curve.png)
+![R](results/R_curve.png)
+![F1](results/F1_curve.png)
 
 *Note: Please refer to the [model training logs](#) for detailed metrics and model evaluation.*
 
