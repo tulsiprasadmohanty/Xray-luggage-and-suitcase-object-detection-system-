@@ -36,16 +36,12 @@ Our model is based on **YOLOv8 (You Only Look Once, version 8)**, which is an ad
 The YOLOv8 model was trained and evaluated on our X-ray luggage dataset, achieving high precision and recall rates for the detection of illegal items. The results show promise for practical application in real-world security systems.
 
 ### Performance Metrics
-| Metric    | Score |
-|-----------|-------|
-| Precision | 85.2% |
-| Recall    | 74.0% |
-| F1-Score  | 86%   |
-| mAP@0.5   | 89.1% |
-![PR](results/PR_curve.png)
-![P](results/P_curve.png)
-![R](results/R_curve.png)
-![F1](results/F1_curve.png)
+| Metric       | Score | Visualization |
+|--------------|-------|---------------|
+| Precision    | 85.2% | ![Precision-Confidence Curve](./results/P_curve.png) |
+| Recall       | 74.0% | ![Precision-Recall Curve](./results/PR_curve.png) |
+| F1-Score     | 86%   | ![F1-Confidence Curve](./results/F1_curve.png) |
+| mAP@0.5      | 89.1% | ![R](results/R_curve.png) |
 
 *Note: Please refer to the [model training logs](#) for detailed metrics and model evaluation.*
 
