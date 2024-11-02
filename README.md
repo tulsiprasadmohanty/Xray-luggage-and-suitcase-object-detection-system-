@@ -41,7 +41,7 @@ The YOLOv8 model was trained and evaluated on our X-ray luggage dataset, achievi
 | Precision    | 85.2% | ![Precision-Confidence Curve](./results/P_curve.png) |
 | Recall       | 74.0% | ![Precision-Recall Curve](./results/PR_curve.png) |
 | F1-Score     | 86%   | ![F1-Confidence Curve](./results/F1_curve.png) |
-| mAP@0.5      | 89.1% | ![R](results/R_curve.png) |
+| RCC      | 89.1% | ![R](results/R_curve.png) |
 
 *Note: Please refer to the [model training logs](#) for detailed metrics and model evaluation.*
 
